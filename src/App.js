@@ -1,10 +1,16 @@
 import './App.css';
-import Forms from './componants/Forms';
+import GreetingHook from './componants/GreetingHook';
+// import IntroducingHooks from './componants/IntroducingHooks';
+// import Forms from './componants/Forms';
+// import LifeCycleA from './componants/LifeCycleA';
 
 function App() {
   return (
     <div className="App">
-      <Forms />
+      {/* <IntroducingHooks /> */}
+      <GreetingHook />
+      {/* <LifeCycleA /> */}
+      {/* <Forms /> */}
     </div>
   );
 }
